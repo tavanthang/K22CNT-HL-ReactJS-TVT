@@ -10,6 +10,8 @@ import TvtNotFound from './pages/TvtNotFound'
 import TvtUsers from './pages/TvtUsers'
 import TvtUserAdd from './pages/TvtUserAdd'
 import TvtUserEdit from './pages/TvtUserEdit'
+import TvtCategory from './pages/TvtCategory'
+
 
 export default function TvtApp() {
   return (
@@ -35,6 +37,7 @@ export default function TvtApp() {
             </Route>
             <Route path="/users/add" element={<TvtUserAdd />} />
             <Route path="/users/edit/:id" element={<TvtUserEdit />} />
+            <Route path="category" element={<TvtCategory />} />
 
 
            {/* 404 page */}

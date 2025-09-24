@@ -9,6 +9,7 @@ export default function TvtNavBar() {
         <NavLink to={'/contact'} style={{padding:".5rem 1rem"}}>Contact</NavLink>
         <NavLink to={'/products'} style={{padding:".5rem 1rem"}}>Product</NavLink>
         <NavLink to={'/users'} style={{padding:".5rem 1rem"}}>Users</NavLink>
+         <NavLink to='/category' style={{ padding: ".5rem 1rem"}}>Category</NavLink>
     </nav>
   )
 }
